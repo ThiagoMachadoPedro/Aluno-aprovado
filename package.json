@@ -1,0 +1,24 @@
+{
+  "name": "aluno-aprovado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --watch -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoMachadoPedro/exercicio_javascript.git#exercicio_es6"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoMachadoPedro/exercicio_javascript/issues"
+  },
+  "homepage": "https://github.com/ThiagoMachadoPedro/exercicio_javascript/tree/exercicio_es6#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20"
+  }
+}
