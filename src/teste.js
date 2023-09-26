@@ -1,13 +1,10 @@
 "use strict";
 //multiple
-function multiplica(a, b) {
-    return a * b;
-}
-let multi = multiplica(100, 2);
-console.log(multi);
+const multiplica = (a, b) => a * b;
+console.log(multiplica(50, 2));
 //salute
-function ola(nome) {
+function dizOla(nome) {
     return 'Olá ' + nome;
 }
-let result = ola('thiago');
+let result = dizOla('thiago');
 console.log(result);

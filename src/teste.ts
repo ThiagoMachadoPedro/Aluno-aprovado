@@ -1,15 +1,12 @@
 //multiple
-function multiplica(a:number , b:number):number{
-  return a * b;
-}
-let multi =multiplica(100 ,2)
-console.log(multi);
+const multiplica = (a:number , b:number):number => a * b;
+console.log(multiplica(50,2));
 
 
 //salute
-function ola(nome: string){
-  return 'Olá ' + nome
+function dizOla(nome: string):string{
+  return 'Olá ' + nome;
 }
 
-let result = ola('thiago');
+let result = dizOla('thiago');
 console.log(result);
